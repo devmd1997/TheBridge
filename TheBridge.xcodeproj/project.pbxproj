@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EDC0E2A2589C4C90078EA96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E292589C4C90078EA96 /* AppDelegate.swift */; };
+		8EDC0E2C2589C4C90078EA96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E2B2589C4C90078EA96 /* SceneDelegate.swift */; };
+		8EDC0E2E2589C4C90078EA96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E2D2589C4C90078EA96 /* ContentView.swift */; };
+		8EDC0E312589C4C90078EA96 /* TheBridge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E2F2589C4C90078EA96 /* TheBridge.xcdatamodeld */; };
+		8EDC0E332589C4CC0078EA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC0E322589C4CC0078EA96 /* Assets.xcassets */; };
+		8EDC0E362589C4CC0078EA96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC0E352589C4CC0078EA96 /* Preview Assets.xcassets */; };
+		8EDC0E392589C4CC0078EA96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC0E372589C4CC0078EA96 /* LaunchScreen.storyboard */; };
+		8EDC0E442589C4CC0078EA96 /* TheBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E432589C4CC0078EA96 /* TheBridgeTests.swift */; };
+		8EDC0E4F2589C4CC0078EA96 /* TheBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E4E2589C4CC0078EA96 /* TheBridgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EDC0E402589C4CC0078EA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EDC0E1E2589C4C80078EA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EDC0E252589C4C90078EA96;
+			remoteInfo = TheBridge;
+		};
+		8EDC0E4B2589C4CC0078EA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EDC0E1E2589C4C80078EA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EDC0E252589C4C90078EA96;
+			remoteInfo = TheBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EDC0E262589C4C90078EA96 /* TheBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDC0E292589C4C90078EA96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EDC0E2B2589C4C90078EA96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EDC0E2D2589C4C90078EA96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EDC0E302589C4C90078EA96 /* TheBridge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheBridge.xcdatamodel; sourceTree = "<group>"; };
+		8EDC0E322589C4CC0078EA96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EDC0E352589C4CC0078EA96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EDC0E382589C4CC0078EA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EDC0E3A2589C4CC0078EA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EDC0E3F2589C4CC0078EA96 /* TheBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDC0E432589C4CC0078EA96 /* TheBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBridgeTests.swift; sourceTree = "<group>"; };
+		8EDC0E452589C4CC0078EA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EDC0E4A2589C4CC0078EA96 /* TheBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDC0E4E2589C4CC0078EA96 /* TheBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBridgeUITests.swift; sourceTree = "<group>"; };
+		8EDC0E502589C4CC0078EA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EDC0E232589C4C90078EA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDC0E3C2589C4CC0078EA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDC0E472589C4CC0078EA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDC0E1D2589C4C80078EA96 = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E282589C4C90078EA96 /* TheBridge */,
+				8EDC0E422589C4CC0078EA96 /* TheBridgeTests */,
+				8EDC0E4D2589C4CC0078EA96 /* TheBridgeUITests */,
+				8EDC0E272589C4C90078EA96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDC0E272589C4C90078EA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E262589C4C90078EA96 /* TheBridge.app */,
+				8EDC0E3F2589C4CC0078EA96 /* TheBridgeTests.xctest */,
+				8EDC0E4A2589C4CC0078EA96 /* TheBridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EDC0E282589C4C90078EA96 /* TheBridge */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E292589C4C90078EA96 /* AppDelegate.swift */,
+				8EDC0E2B2589C4C90078EA96 /* SceneDelegate.swift */,
+				8EDC0E2D2589C4C90078EA96 /* ContentView.swift */,
+				8EDC0E322589C4CC0078EA96 /* Assets.xcassets */,
+				8EDC0E372589C4CC0078EA96 /* LaunchScreen.storyboard */,
+				8EDC0E3A2589C4CC0078EA96 /* Info.plist */,
+				8EDC0E2F2589C4C90078EA96 /* TheBridge.xcdatamodeld */,
+				8EDC0E342589C4CC0078EA96 /* Preview Content */,
+			);
+			path = TheBridge;
+			sourceTree = "<group>";
+		};
+		8EDC0E342589C4CC0078EA96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E352589C4CC0078EA96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EDC0E422589C4CC0078EA96 /* TheBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E432589C4CC0078EA96 /* TheBridgeTests.swift */,
+				8EDC0E452589C4CC0078EA96 /* Info.plist */,
+			);
+			path = TheBridgeTests;
+			sourceTree = "<group>";
+		};
+		8EDC0E4D2589C4CC0078EA96 /* TheBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E4E2589C4CC0078EA96 /* TheBridgeUITests.swift */,
+				8EDC0E502589C4CC0078EA96 /* Info.plist */,
+			);
+			path = TheBridgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EDC0E252589C4C90078EA96 /* TheBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDC0E532589C4CC0078EA96 /* Build configuration list for PBXNativeTarget "TheBridge" */;
+			buildPhases = (
+				8EDC0E222589C4C90078EA96 /* Sources */,
+				8EDC0E232589C4C90078EA96 /* Frameworks */,
+				8EDC0E242589C4C90078EA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheBridge;
+			productName = TheBridge;
+			productReference = 8EDC0E262589C4C90078EA96 /* TheBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EDC0E3E2589C4CC0078EA96 /* TheBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDC0E562589C4CC0078EA96 /* Build configuration list for PBXNativeTarget "TheBridgeTests" */;
+			buildPhases = (
+				8EDC0E3B2589C4CC0078EA96 /* Sources */,
+				8EDC0E3C2589C4CC0078EA96 /* Frameworks */,
+				8EDC0E3D2589C4CC0078EA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EDC0E412589C4CC0078EA96 /* PBXTargetDependency */,
+			);
+			name = TheBridgeTests;
+			productName = TheBridgeTests;
+			productReference = 8EDC0E3F2589C4CC0078EA96 /* TheBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EDC0E492589C4CC0078EA96 /* TheBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDC0E592589C4CC0078EA96 /* Build configuration list for PBXNativeTarget "TheBridgeUITests" */;
+			buildPhases = (
+				8EDC0E462589C4CC0078EA96 /* Sources */,
+				8EDC0E472589C4CC0078EA96 /* Frameworks */,
+				8EDC0E482589C4CC0078EA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EDC0E4C2589C4CC0078EA96 /* PBXTargetDependency */,
+			);
+			name = TheBridgeUITests;
+			productName = TheBridgeUITests;
+			productReference = 8EDC0E4A2589C4CC0078EA96 /* TheBridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EDC0E1E2589C4C80078EA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					8EDC0E252589C4C90078EA96 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8EDC0E3E2589C4CC0078EA96 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8EDC0E252589C4C90078EA96;
+					};
+					8EDC0E492589C4CC0078EA96 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8EDC0E252589C4C90078EA96;
+					};
+				};
+			};
+			buildConfigurationList = 8EDC0E212589C4C90078EA96 /* Build configuration list for PBXProject "TheBridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EDC0E1D2589C4C80078EA96;
+			productRefGroup = 8EDC0E272589C4C90078EA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EDC0E252589C4C90078EA96 /* TheBridge */,
+				8EDC0E3E2589C4CC0078EA96 /* TheBridgeTests */,
+				8EDC0E492589C4CC0078EA96 /* TheBridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EDC0E242589C4C90078EA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDC0E392589C4CC0078EA96 /* LaunchScreen.storyboard in Resources */,
+				8EDC0E362589C4CC0078EA96 /* Preview Assets.xcassets in Resources */,
+				8EDC0E332589C4CC0078EA96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDC0E3D2589C4CC0078EA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDC0E482589C4CC0078EA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EDC0E222589C4C90078EA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDC0E312589C4C90078EA96 /* TheBridge.xcdatamodeld in Sources */,
+				8EDC0E2A2589C4C90078EA96 /* AppDelegate.swift in Sources */,
+				8EDC0E2C2589C4C90078EA96 /* SceneDelegate.swift in Sources */,
+				8EDC0E2E2589C4C90078EA96 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDC0E3B2589C4CC0078EA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDC0E442589C4CC0078EA96 /* TheBridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EDC0E462589C4CC0078EA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDC0E4F2589C4CC0078EA96 /* TheBridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EDC0E412589C4CC0078EA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EDC0E252589C4C90078EA96 /* TheBridge */;
+			targetProxy = 8EDC0E402589C4CC0078EA96 /* PBXContainerItemProxy */;
+		};
+		8EDC0E4C2589C4CC0078EA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EDC0E252589C4C90078EA96 /* TheBridge */;
+			targetProxy = 8EDC0E4B2589C4CC0078EA96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EDC0E372589C4CC0078EA96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDC0E382589C4CC0078EA96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EDC0E512589C4CC0078EA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EDC0E522589C4CC0078EA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EDC0E542589C4CC0078EA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TheBridge/Preview Content\"";
+				DEVELOPMENT_TEAM = AFZGE32SZQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TheBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Devon.TheBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EDC0E552589C4CC0078EA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TheBridge/Preview Content\"";
+				DEVELOPMENT_TEAM = AFZGE32SZQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TheBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Devon.TheBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EDC0E572589C4CC0078EA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFZGE32SZQ;
+				INFOPLIST_FILE = TheBridgeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Devon.TheBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBridge.app/TheBridge";
+			};
+			name = Debug;
+		};
+		8EDC0E582589C4CC0078EA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFZGE32SZQ;
+				INFOPLIST_FILE = TheBridgeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Devon.TheBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBridge.app/TheBridge";
+			};
+			name = Release;
+		};
+		8EDC0E5A2589C4CC0078EA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFZGE32SZQ;
+				INFOPLIST_FILE = TheBridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Devon.TheBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheBridge;
+			};
+			name = Debug;
+		};
+		8EDC0E5B2589C4CC0078EA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFZGE32SZQ;
+				INFOPLIST_FILE = TheBridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Devon.TheBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheBridge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EDC0E212589C4C90078EA96 /* Build configuration list for PBXProject "TheBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDC0E512589C4CC0078EA96 /* Debug */,
+				8EDC0E522589C4CC0078EA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDC0E532589C4CC0078EA96 /* Build configuration list for PBXNativeTarget "TheBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDC0E542589C4CC0078EA96 /* Debug */,
+				8EDC0E552589C4CC0078EA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDC0E562589C4CC0078EA96 /* Build configuration list for PBXNativeTarget "TheBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDC0E572589C4CC0078EA96 /* Debug */,
+				8EDC0E582589C4CC0078EA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDC0E592589C4CC0078EA96 /* Build configuration list for PBXNativeTarget "TheBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDC0E5A2589C4CC0078EA96 /* Debug */,
+				8EDC0E5B2589C4CC0078EA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EDC0E2F2589C4C90078EA96 /* TheBridge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EDC0E302589C4C90078EA96 /* TheBridge.xcdatamodel */,
+			);
+			currentVersion = 8EDC0E302589C4C90078EA96 /* TheBridge.xcdatamodel */;
+			path = TheBridge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EDC0E1E2589C4C80078EA96 /* Project object */;
+}
