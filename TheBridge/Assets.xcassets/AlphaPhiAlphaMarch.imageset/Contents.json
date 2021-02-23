@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "200604-new-york-george-floyd-brooklyn-bridge-ac-941p_842c9e0526618b978f00e32e3d65336a.fit-760w.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
