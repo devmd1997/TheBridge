@@ -71,7 +71,7 @@ struct LoginSignupView: View {
                                     self.visible = false
                                     print("success")
                                     self.selection = 1
-                                    
+                                    UserDefaults.standard.set(true, forKey: "isLoggedIn")
                                 }
                                 self.spin = false
                             }
